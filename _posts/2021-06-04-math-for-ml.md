@@ -6,10 +6,13 @@ categories:
     - Maths
     - Linear ALgebra
     - Introduction
+    - Probability
+    - Calculus
+    - Optimization
 
 header: 
-    teaser: /assets/images/posts/linear_algebra_header.png
-    overlay_image: /assets/images/posts/linear_algebra_header.png
+    teaser: /assets/images/posts/2021-06-04-math-for-ml/math_header.png
+    overlay_image: /assets/images/posts/2021-06-04-math-for-ml/math_header.png
     overlay_filter: 0.5
 ---
 
@@ -22,6 +25,12 @@ Machine Learning uses a variety of branches from mathematics. Infact machine lea
 In this post we will have a look at some of the main branches of mathematics that we use in Machine Learning very briefly. For more details, you can go into the Math category in the blog.
 
 ## Linear Algebra
+<figure class="half">
+    <img src="/assets/images/posts/2021-06-04-math-for-ml/1.gif">
+    <img src="/assets/images/posts/2021-06-04-math-for-ml/2.gif">
+    <figcaption>Rotation and Shearing of a matrix</figcaption>
+</figure>
+
 - Linear Algebra is the branch of mathematics that generally deals with data.
 - It is also known as **The Mathematics of Data**.
 - Linear Algebra deals with abstract objects in the form of vectors and matrices.
@@ -30,6 +39,10 @@ In this post we will have a look at some of the main branches of mathematics tha
 
 
 ## Probability and Statistics
+<figure class="align-center">
+    <img src="/assets/images/posts/2021-06-04-math-for-ml/prob1.gif">
+    <figcaption>SAT Scores distributions</figcaption>
+</figure>
 - **Probability** is the branch of mathematics that deals with chances.
 - **Statistics** is the branch of mathematics that can be used to describe the data elegantly. We can also use statistic measures to learn features and derive equations to predict new unknown data based on previous learning.
 - In machine learning, we never get results in absolutes, instead we **get a probability of the result being some class**, say A. <br/>  For ex - In image classification problems, we generally look at a top-5 accuracy measurement. This means that we consider the top-5 classes (read probabilities) that the algorithm has predicted and use that to calculate the top-5 accuracy score.
@@ -37,11 +50,19 @@ In this post we will have a look at some of the main branches of mathematics tha
 - However, it is very important to keep in mind that ***correlation does not imply causalty***.
 
 ## Mathematical Optimization
+<figure class="align-center">
+    <img src="/assets/images/posts/2021-06-04-math-for-ml/gd.gif">
+    <figcaption>Comparision of different optimization techniques</figcaption>
+</figure>
 - Mathematical Optimization is the selection of a best element, with regard to some critetrion, from some set of available alternatives.
 - In Machine Learning terms, we select the **best weight**, with respect to a **loss function** using recorded data.
 - Some famous optimization methods include *Gradient Descent* and *Adam Optimization*.
 
 ## Calculus
+<figure class="align-center">
+    <img src="/assets/images/posts/2021-06-04-math-for-ml/diff.gif">
+    <figcaption>Calculating the slope of a function at any given point</figcaption>
+</figure>
 - Calculus is the mathematical study of continous change.
 - We use calculus extensively for optimization techniques, especially differential calculus.
 
