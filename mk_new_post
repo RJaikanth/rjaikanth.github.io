@@ -1,2 +1,16 @@
+FILENAME="_posts/$1.md"
+
 touch "_posts/$1.md"
 mkdir "assets/images/posts/$1"
+
+echo "---" >> $FILENAME
+echo "layout: single" >> $FILENAME
+echo "title: " >> $FILENAME
+printf "\n" >> $FILENAME
+echo "mathjax: true" >> $FILENAME
+printf "\n" >> $FILENAME
+echo "categories:" >> $FILENAME
+echo "   - " >> $FILENAME
+printf "\n" >> $FILENAME
+echo "---" >> $FILENAME
+printf "\n\n" >> $FILENAME

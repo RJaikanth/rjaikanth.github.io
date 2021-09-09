@@ -3,6 +3,9 @@ title: "Raghhuveer Jaikanth's Blog"
 layout: "splash"
 permalink: /
 date: 2021-06-04
+classes:
+  - landing
+  - dark-theme
 
 header:
   overlay_image: /assets/images/global/header-background.jpg
@@ -16,18 +19,19 @@ excerpt:
   *And then the machines could learn and see!*
 
 feature_row:
-    - image_path: /assets/images/global/blog.png
-      title: "Blog"
+    - title: "ISLR Notes"
+      btn_class: "btn--primary"
+      btn_label: "Go to ISLR Notes"
+      url: /islr-notes
+    - title: "Blog"
       btn_class: "btn--primary"
       btn_label: "Go to Blog Posts"
       url: "/blog/"
-    - image_path: /assets/images/global/categories.png
-      title: "Categories"
-      btn_class: "btn--primary"
-      btn_label: "Go to categories"
-      url: "/categories/"
-    - image_path: /assets/images/global/about-me.jpg
-      title: "Learn More About Me!"
+    # - title: "Categories"
+    #   btn_class: "btn--primary"
+    #   btn_label: "Go to categories"
+    #   url: "/categories/"
+    - title: "Learn More About Me!"
       btn_class: "btn--primary"
       btn_label: "About Me"
       url: "/about/"
