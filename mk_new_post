@@ -8,9 +8,11 @@ echo "layout: single" >> $FILENAME
 echo "title: " >> $FILENAME
 printf "\n" >> $FILENAME
 echo "mathjax: true" >> $FILENAME
+echo "author_profile: false" >> $FILENAME
 printf "\n" >> $FILENAME
 echo "categories:" >> $FILENAME
 echo "   - " >> $FILENAME
 printf "\n" >> $FILENAME
 echo "---" >> $FILENAME
+echo "{% include toc title="Contents" %}" >> $FILENAME
 printf "\n\n" >> $FILENAME

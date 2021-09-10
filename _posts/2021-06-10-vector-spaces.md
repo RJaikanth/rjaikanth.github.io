@@ -3,6 +3,7 @@ layout: single
 title: Groups and Vector Spaces
 
 mathjax: true
+author_profile: false
 
 header:
    overlay_image: /assets/images/posts/2021-06-10-vector-spaces/header.jpg
@@ -15,6 +16,7 @@ categories:
    - Vector Spaces
 
 ---
+{% include toc title="Contents" %}
 
 # Groups
 Consider a set $$A$$ and any operation $$*: A \times A \to A$$,

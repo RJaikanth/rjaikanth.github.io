@@ -3,12 +3,14 @@ layout: single
 title: Chapter 2
 
 mathjax: true
-
+author_profile: false
 
 categories:
    - Machine Learning
    - ISLR
 ---
+{% include toc title="Contents" %}
+
 # Case Study
 
 ## Description and Goal

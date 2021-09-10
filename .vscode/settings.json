@@ -1,0 +1,30 @@
+{
+    "saveEditorLayout.list": [
+        {
+            "name": "2 col + bash",
+            "orientation": 0,
+            "documents": [
+                {
+                    "fsPath": "/home/rjaikanth97/myspace/blog/rjaikanth.github.io/_pages/islr.md",
+                    "column": 1
+                },
+                {
+                    "fsPath": "/home/rjaikanth97/myspace/blog/rjaikanth.github.io/_pages/home.md",
+                    "column": 1
+                },
+                {
+                    "fsPath": "/home/rjaikanth97/myspace/blog/rjaikanth.github.io/_posts/2021-09-08-islr-chapter2.md",
+                    "column": 2
+                },
+                {
+                    "fsPath": "/home/rjaikanth97/myspace/blog/rjaikanth.github.io/mk_new_post",
+                    "column": 2
+                },
+                {
+                    "fsPath": "/home/rjaikanth97/myspace/blog/rjaikanth.github.io/_posts/2021-09-09-chapter3.md.md",
+                    "column": 2
+                }
+            ]
+        }
+    ]
+}
