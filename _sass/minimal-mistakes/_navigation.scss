@@ -505,17 +505,18 @@
 
 .toc {
   font-family: $sans-serif-narrow;
-  color: $gray;
+  color: #000;
   background-color: $background-color;
-  border: 1px solid $border-color;
+  // border: 1px solid $border-color;
   border-radius: $border-radius;
-  -webkit-box-shadow: $box-shadow;
-  box-shadow: $box-shadow;
+  // -webkit-box-shadow: $box-shadow;
+  // box-shadow: $box-shadow;
 
   .nav__title {
     color: #fff;
-    font-size: $type-size-6;
-    background: $primary-color;
+    font-size: 24px;
+    font-weight: normal;
+    background: $darker-gray;
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
   }
@@ -534,14 +535,14 @@
   font-size: $type-size-6;
 
   @include breakpoint($large) {
-    font-size: $type-size-7;
+    font-size: 22px;
   }
 
   a {
     display: block;
     padding: 0.25rem 0.75rem;
-    color: $muted-text-color;
-    font-weight: bold;
+    color: $text-color;
+    font-weight: normal;
     line-height: 1.5;
     border-bottom: 1px solid $border-color;
 
