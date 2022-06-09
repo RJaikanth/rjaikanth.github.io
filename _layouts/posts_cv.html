@@ -1,0 +1,12 @@
+---
+layout: archive
+---
+
+
+{% for post in site.posts %}
+  {% if post.categories contains "DL Paper Summary" %}
+    {% if post.tags contains "Computer Vision" %}
+      {% include archive-single.html type=entries_layout %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
