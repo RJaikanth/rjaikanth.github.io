@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #040b14;
+  color: #272829;
 }
 
 a {
@@ -174,7 +174,7 @@ h6 {
 .nav-menu a:focus i {
   font-size: 24px;
   padding-right: 8px;
-  color: #a8a9b4;
+  color: #6f7180;
 }
 
 .nav-menu a:hover,
@@ -299,7 +299,7 @@ section {
 }
 
 .section-bg {
-  background: #040b14;
+  background: #f5f8fd;
 }
 
 .section-title {
@@ -312,7 +312,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #149ddd;
+  color: #173b6c;
 }
 
 .section-title h2::after {
@@ -330,29 +330,9 @@ section {
   margin-bottom: 0;
 }
 
-/* #education h2 {
-  margin-bottom: 2rem;
-}
-
-# */
-
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about {
-  background-color: #132024;
-}
-
-.about p {
-  color: #ffffffec;
-}
-
-.about h2 {
-  color: #149ddd 
-}
-
-
-
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -439,10 +419,6 @@ section {
 /*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
-.skills {
-  background-color: #132024;
-}
-
 .skills .progress {
   height: 60px;
   display: block;
@@ -450,20 +426,14 @@ section {
   border-radius: 0;
 }
 
-.skills h5 {
-  color: #ffffffec;
-}
-
 .skills .progress .skill {
   padding: 0;
   margin: 0 0 6px 0;
-  text-transform: capitalize;
+  text-transform: uppercase;
   display: block;
-  font-size: 14px;
-  font-weight: 400;
+  font-weight: 600;
   font-family: "Poppins", sans-serif;
-  /* color: #050d18; */
-  color: #ffffffec;
+  color: #050d18;
 }
 
 .skills .progress .skill .val {
@@ -474,46 +444,20 @@ section {
 .skills .progress-bar-wrap {
   background: #dce8f8;
   height: 10px;
-  border-radius: 100px;
+  border-radius: 25px;
 }
 
 .skills .progress-bar {
   width: 1px;
   height: 10px;
-  transition: 1.5s;
+  transition: 0.9s;
   background-color: #149ddd;
-  border-radius: 100px;
+  border-radius: 25px;
 }
 
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
-
-.resume {
-  background-color: #132024;
-}
-
-.resume .icon-box i{
-  font-size: 24px;
-  padding-right: 8px;
-  color: #149ddd;
-}
-
-.resume .icon-box p{
-  color: #ffffffec;
-}
-
-.resume .icon-box h4{
-  font-size: 16px;
-  font-weight: 300;
-  margin-bottom: 10px;
-  color: #ffffffec;
-}
-
-.resume p {
-  color: #ffffffec;
-}
-
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -522,39 +466,30 @@ section {
   color: #050d18;
 }
 
-.resume .hgroup .left {
-  float: left;
-}
-
-.resume .hgroup .right {
-  float: right;
-}
-
 .resume .resume-item {
   padding: 0 0 20px 20px;
-  margin-top: -10px;
-  border-left: 2px solid #ffffffe1;
+  margin-top: -2px;
+  border-left: 2px solid #1f5297;
   position: relative;
-  margin-left: 5%;
-  margin-right: 5%;
-  /* padding-top: 10px; */
 }
 
 .resume .resume-item h4 {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
-  text-transform: none;
+  text-transform: capitalize;
   font-family: "Poppins", sans-serif;
-  color: #149dddea;
+  color: #050d18;
   margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
-  font-size: 17px;
-  font-weight: 300;
+  font-size: 16px;
+  background: #e4edf9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
   margin-bottom: 10px;
-  color: #ffffffec;
 }
 
 .resume .resume-item ul {
@@ -563,7 +498,6 @@ section {
 
 .resume .resume-item ul li {
   padding-bottom: 10px;
-  color: #ffffffec;
 }
 
 .resume .resume-item:last-child {
@@ -573,63 +507,14 @@ section {
 .resume .resume-item::before {
   content: "";
   position: absolute;
-  width: 10px;
-  height: 10px;
-  border-radius: 10px;
-  left: -6.5px;
-  top: 3px;
-  background: #ffffff;
-  border: 2px solid #ffffff;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #1f5297;
 }
-
-/* .resume .resume-sub-item {
-  padding: 10px 0 0 0;
-  margin-top: 10px;
-  border-left: 1px solid #1f5297;
-  position: relative;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.resume .resume-sub-item h6 {
-  font-size: 16px;
-  font-weight: 400;
-  margin-bottom: 10px;
-}
-
-.resume .resume-sub-item h5 {
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 20px;
-  color: #149ddd;
-}
-
-.resume .resume-sub-item ul {
-  padding-left: 20px;
-  color: #ffff;
-}
-
-.resume .resume-sub-item ul li {
-  padding-bottom: 10px;
-  color: #ffff;
-}
-
-.resume .resume-sub-item:last-child {
-  padding-bottom: 0;
-}
-
-
-.resume .resume-sub-item::before {
-  content: "";
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  border-radius: 10px;
-  left: -36px;
-  top: 14px;
-  background: #3e3e3e;
-  border: 2px solid #3e3e3e;
-} */
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -797,28 +682,11 @@ section {
   padding: 0;
 }
 
-hr { background-color: #ffff; height: 1px; border: 0; }
-
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services {
-  background-color: #132024;
-}
-
 .services .icon-box {
   margin-bottom: 20px;
-}
-
-.services .icon-box p{
-  color: #ffffffec;
-}
-
-.services .icon-box h4{
-  font-size: 16px;
-  font-weight: 300;
-  margin-bottom: 10px;
-  color: #ffffffec;
 }
 
 .services .icon {
