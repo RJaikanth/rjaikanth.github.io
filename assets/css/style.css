@@ -264,6 +264,11 @@ h6 {
   font-family: "Poppins", sans-serif;
 }
 
+#hero a {
+  position: sticky;
+  font-size: x-small;
+}
+
 #hero p span {
   color: #fff;
   padding-bottom: 4px;
